@@ -1,0 +1,6 @@
+{
+  "name": "AI CashFlow Pro",
+  "description": "Enterprise Grade AI Financial Intelligence Platform featuring real-time bank statement parsing, automated classification, visual analytics, dynamic report generation, and an AI financial chat assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

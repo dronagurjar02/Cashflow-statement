@@ -1,0 +1,613 @@
+{
+  "users": [
+    {
+      "id": "user_enterprise_1",
+      "email": "dronagurjar02@gmail.com",
+      "name": "Drona Gurjar",
+      "createdAt": "2026-06-17T19:49:54.900Z"
+    },
+    {
+      "id": "user_1781726069905",
+      "name": "aaa",
+      "email": "aaa@gmil.com",
+      "password": "aaa",
+      "createdAt": "2026-06-17T19:54:29.905Z"
+    }
+  ],
+  "bankAccounts": [
+    {
+      "id": "acc_premium_1",
+      "userId": "user_enterprise_1",
+      "accountName": "HDFC Signature Savings",
+      "accountNumber": "XXXX XXXX 9821",
+      "bankName": "HDFC Bank",
+      "balance": 53001,
+      "currency": "USD"
+    },
+    {
+      "id": "acc_premium_2",
+      "userId": "user_enterprise_1",
+      "accountName": "Zerodha Demat Portfolio",
+      "accountNumber": "IN30283749",
+      "bankName": "Zerodha",
+      "balance": 0,
+      "currency": "USD"
+    }
+  ],
+  "uploadedFiles": [
+    {
+      "id": "file_1781726424859",
+      "userId": "user_enterprise_1",
+      "fileName": "dummy_bank_statement.csv",
+      "fileSize": 478,
+      "mimeType": "text/csv",
+      "uploadedAt": "2026-06-17T20:00:24.859Z",
+      "status": "COMPLETED",
+      "transactionCount": 12
+    },
+    {
+      "id": "file_1781726449246",
+      "userId": "user_enterprise_1",
+      "fileName": "dummy_bank_statement (1).pdf",
+      "fileSize": 2344,
+      "mimeType": "application/pdf",
+      "uploadedAt": "2026-06-17T20:00:49.246Z",
+      "status": "COMPLETED",
+      "transactionCount": 12
+    },
+    {
+      "id": "file_1781726490867",
+      "userId": "user_enterprise_1",
+      "fileName": "sample.pdf",
+      "fileSize": 1954,
+      "mimeType": "application/pdf",
+      "uploadedAt": "2026-06-17T20:01:30.868Z",
+      "status": "COMPLETED",
+      "transactionCount": 8
+    },
+    {
+      "id": "file_1781726566149",
+      "userId": "user_enterprise_1",
+      "fileName": "dummy_bank_statement (1).pdf",
+      "fileSize": 2344,
+      "mimeType": "application/pdf",
+      "uploadedAt": "2026-06-17T20:02:46.149Z",
+      "status": "COMPLETED",
+      "transactionCount": 12
+    },
+    {
+      "id": "file_1781726666130",
+      "userId": "user_enterprise_1",
+      "fileName": "dummy_bank_statement (1).pdf",
+      "fileSize": 2344,
+      "mimeType": "application/pdf",
+      "uploadedAt": "2026-06-17T20:04:26.130Z",
+      "status": "COMPLETED",
+      "transactionCount": 12
+    },
+    {
+      "id": "file_1781726874928",
+      "userId": "user_enterprise_1",
+      "fileName": "sample.pdf",
+      "fileSize": 1954,
+      "mimeType": "application/pdf",
+      "uploadedAt": "2026-06-17T20:07:54.928Z",
+      "status": "COMPLETED",
+      "transactionCount": 8
+    }
+  ],
+  "transactions": [
+    {
+      "id": "tx_u_1781726879663_0",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-01",
+      "merchant": "Employer",
+      "description": "Salary Credit",
+      "amount": 50000,
+      "type": "INCOME",
+      "category": "Salary"
+    },
+    {
+      "id": "tx_u_1781726879664_1",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-02",
+      "merchant": "Swiggy",
+      "description": "Swiggy Order",
+      "amount": 450,
+      "type": "EXPENSE",
+      "category": "Food & Dining"
+    },
+    {
+      "id": "tx_u_1781726879664_2",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-03",
+      "merchant": "Amazon",
+      "description": "Amazon Purchase",
+      "amount": 1200,
+      "type": "EXPENSE",
+      "category": "Shopping"
+    },
+    {
+      "id": "tx_u_1781726879664_3",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-04",
+      "merchant": "Utility Provider",
+      "description": "Electricity Bill",
+      "amount": 2500,
+      "type": "EXPENSE",
+      "category": "Utilities"
+    },
+    {
+      "id": "tx_u_1781726879664_4",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-05",
+      "merchant": "Generic",
+      "description": "UPI Transfer",
+      "amount": 5000,
+      "type": "EXPENSE",
+      "category": "Others"
+    },
+    {
+      "id": "tx_u_1781726879664_5",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-10",
+      "merchant": "Client",
+      "description": "Freelance Payment",
+      "amount": 15000,
+      "type": "INCOME",
+      "category": "Salary"
+    },
+    {
+      "id": "tx_u_1781726879664_6",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-12",
+      "merchant": "Petrol Pump",
+      "description": "Petrol Pump",
+      "amount": 2200,
+      "type": "EXPENSE",
+      "category": "Transportation"
+    },
+    {
+      "id": "tx_u_1781726879664_7",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "date": "2025-01-15",
+      "merchant": "Netflix",
+      "description": "Netflix Subscription",
+      "amount": 649,
+      "type": "EXPENSE",
+      "category": "Entertainment"
+    }
+  ],
+  "insights": [
+    {
+      "id": "insight_1781726429381",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726424859",
+      "generatedAt": "2026-06-17T20:00:29.381Z",
+      "healthScore": 82,
+      "incomeSummary": "Total monthly income of 83,750 INR indicates strong cash inflow.",
+      "expenseSummary": "Total operational expenses are 22,318 INR, well within the income limits.",
+      "investmentSummary": "A disciplined investment of 5,000 INR was allocated toward SIPs this month.",
+      "savingsAnalysis": "Savings rate is approximately 60% of total income, demonstrating healthy fiscal management.",
+      "cashFlowAnalysis": "Net positive cash flow of 61,432 INR provides significant buffer for future months.",
+      "topSpendingCategories": [
+        "Rent",
+        "Utilities",
+        "Shopping"
+      ],
+      "spendingPatterns": [
+        "Recurring utility and subscription payments identified",
+        "Significant spending concentrated early in the month"
+      ],
+      "overspendingAlerts": [
+        "Electricity bill amount is relatively high for a single household"
+      ],
+      "budgetSuggestions": [
+        {
+          "category": "Utilities",
+          "suggestedLimit": 2500,
+          "reason": "Monthly usage analysis suggests potential for energy optimization"
+        }
+      ],
+      "recommendations": [
+        "Increase investment allocation to 10,000 INR given high surplus",
+        "Explore cashback credit cards for recurring utility payments"
+      ],
+      "riskAnalysis": "Low financial risk due to robust savings rate and manageable debt-free profile."
+    },
+    {
+      "id": "insight_1781726454650",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726449246",
+      "generatedAt": "2026-06-17T20:00:54.650Z",
+      "healthScore": 88,
+      "incomeSummary": "Total monthly income of 83,750 INR derived from primary salary, freelance projects, refunds, and cash deposits.",
+      "expenseSummary": "Total monthly expenditures equal 22,318 INR, with rent remaining the largest fixed obligation.",
+      "investmentSummary": "Allocated 5,000 INR to SIP, representing a healthy 6% of total gross inflow towards future wealth building.",
+      "savingsAnalysis": "High savings capability with a net surplus of 56,432 INR remaining after all expenses and planned investments.",
+      "cashFlowAnalysis": "Strong positive cash flow; income consistently covers liabilities with significant margin for aggressive debt repayment or increased investment.",
+      "topSpendingCategories": [
+        "Rent",
+        "Utilities",
+        "Shopping"
+      ],
+      "spendingPatterns": [
+        "Monthly fixed rental payment",
+        "Recurring digital entertainment and cloud utility expenses"
+      ],
+      "overspendingAlerts": [
+        "None detected."
+      ],
+      "budgetSuggestions": [
+        {
+          "category": "Shopping",
+          "suggestedLimit": 2000,
+          "reason": "Current spending on Amazon exceeds typical discretionary limits."
+        }
+      ],
+      "recommendations": [
+        "Consider increasing SIP contribution given the large monthly surplus.",
+        "Establish an emergency fund to cover 6 months of expenses."
+      ],
+      "riskAnalysis": "Low financial risk due to diverse income streams and minimal discretionary overspending."
+    },
+    {
+      "id": "insight_1781726495976",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726490867",
+      "generatedAt": "2026-06-17T20:01:35.976Z",
+      "healthScore": 88,
+      "incomeSummary": "Total monthly income is 65,000 INR, derived from salary and freelance work.",
+      "expenseSummary": "Total monthly expenditure is 11,999 INR, well within income limits.",
+      "investmentSummary": "No investments identified in the provided period.",
+      "savingsAnalysis": "Savings rate is approximately 81.5%, indicating strong financial management.",
+      "cashFlowAnalysis": "Positive cash flow of 53,001 INR for the period.",
+      "topSpendingCategories": [
+        "Others",
+        "Utilities",
+        "Transportation"
+      ],
+      "spendingPatterns": [
+        "Heavy reliance on digital transfers for miscellaneous expenses",
+        "Diversified spending across utilities and transport"
+      ],
+      "overspendingAlerts": [
+        "UPI transfer of 5000 INR lacks specific categorization; monitor discretionary outflows."
+      ],
+      "budgetSuggestions": [
+        {
+          "category": "Others",
+          "suggestedLimit": 2000,
+          "reason": "Reduce unclassified UPI transfers to improve budget visibility."
+        }
+      ],
+      "recommendations": [
+        "Allocate surplus cash into a high-yield investment account.",
+        "Track recurring subscriptions for cost optimization."
+      ],
+      "riskAnalysis": "Low financial risk due to high liquidity and significant surplus compared to operational expenses."
+    },
+    {
+      "id": "insight_1781726571937",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726566149",
+      "generatedAt": "2026-06-17T20:02:51.937Z",
+      "healthScore": 88,
+      "incomeSummary": "Total income for the period was 83,750 INR, comprising base salary, freelance earnings, a UPI refund, and a cash deposit.",
+      "expenseSummary": "Total operational expenses were 22,318 INR, with rent accounting for the largest share of expenditures.",
+      "investmentSummary": "A systematic investment plan (SIP) of 5,000 INR was executed, representing roughly 6% of total income.",
+      "savingsAnalysis": "Strong surplus indicated; total inflows significantly exceed outflows, allowing for potential increased investment capacity.",
+      "cashFlowAnalysis": "Positive cash flow trend maintained throughout the month with consistent revenue streams.",
+      "topSpendingCategories": [
+        "Rent",
+        "Utilities",
+        "Shopping"
+      ],
+      "spendingPatterns": [
+        "Large fixed costs at the start of the month",
+        "Discretionary spending spread across mid-month"
+      ],
+      "overspendingAlerts": [
+        "Utility costs appear slightly high compared to average household consumption levels."
+      ],
+      "budgetSuggestions": [
+        {
+          "category": "Utilities",
+          "suggestedLimit": 2500,
+          "reason": "Current spend of 3100 exceeds typical household averages for this period."
+        }
+      ],
+      "recommendations": [
+        "Automate an additional 5,000 INR into emergency savings.",
+        "Monitor electricity consumption to lower utility bills."
+      ],
+      "riskAnalysis": "Low risk profile; liquidity is high and primary expenses are well within the income bracket."
+    },
+    {
+      "id": "insight_1781726670978",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726666130",
+      "generatedAt": "2026-06-17T20:04:30.978Z",
+      "healthScore": 88,
+      "incomeSummary": "Total monthly income was 83,750 INR, comprising salary, freelance work, refunds, and cash deposits.",
+      "expenseSummary": "Total expenditure for the period was 22,318 INR across various categories.",
+      "investmentSummary": "Active wealth allocation of 5,000 INR into SIP investments, demonstrating strong financial planning.",
+      "savingsAnalysis": "With expenses significantly lower than income, the savings rate is healthy, leaving a surplus of approximately 61,432 INR.",
+      "cashFlowAnalysis": "The account shows positive net cash flow with consistent inflows and controlled discretionary spending.",
+      "topSpendingCategories": [
+        "Rent",
+        "Utilities",
+        "Shopping"
+      ],
+      "spendingPatterns": [
+        "Large monthly rent commitment",
+        "Recurring subscription payment detected"
+      ],
+      "overspendingAlerts": [
+        "No major overspending detected; all expenses are within standard limits."
+      ],
+      "budgetSuggestions": [
+        {
+          "category": "Shopping",
+          "suggestedLimit": 2000,
+          "reason": "Current spending on discretionary shopping was higher than the average category baseline."
+        }
+      ],
+      "recommendations": [
+        "Consider increasing SIP contribution given the high surplus.",
+        "Review subscription necessity to optimize monthly recurring costs."
+      ],
+      "riskAnalysis": "Minimal risk profile detected with high liquidity and low debt burden."
+    },
+    {
+      "id": "insight_1781726879664",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "generatedAt": "2026-06-17T20:07:59.664Z",
+      "healthScore": 88,
+      "incomeSummary": "Total monthly income is 65,000 INR from salary and freelance work.",
+      "expenseSummary": "Total expenses for the period are 11,999 INR, leaving a healthy surplus.",
+      "investmentSummary": "No investments were detected in this period.",
+      "savingsAnalysis": "Strong savings rate with over 80% of total income retained.",
+      "cashFlowAnalysis": "Positive cash flow supported by diversified income streams.",
+      "topSpendingCategories": [
+        "Others",
+        "Utilities",
+        "Transportation"
+      ],
+      "spendingPatterns": [
+        "Heavy reliance on UPI transfers impacting liquidity visibility.",
+        "Monthly subscriptions and utility bills are consistent."
+      ],
+      "overspendingAlerts": [
+        "No critical overspending detected, though utility costs could be optimized."
+      ],
+      "budgetSuggestions": [
+        {
+          "category": "Others",
+          "suggestedLimit": 2000,
+          "reason": "Reduce unclassified UPI transfers to improve budget tracking."
+        }
+      ],
+      "recommendations": [
+        "Allocate surplus cash into a high-yield savings account or index fund.",
+        "Track UPI transfers more granularly to improve categorization."
+      ],
+      "riskAnalysis": "Low financial risk due to high income-to-expense ratio and no debt indicators."
+    }
+  ],
+  "monthlyReports": [
+    {
+      "id": "report_1781726429381",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726424859",
+      "generatedAt": "2026-06-17T20:00:29.381Z",
+      "period": "March 2026",
+      "executiveSummary": "The account exhibits strong financial health with high surplus and consistent income streams.",
+      "incomeAnalysis": "Income remains diversified between primary salary and secondary freelance work, totaling 83,750 INR.",
+      "expenseAnalysis": "Monthly expenses are stable. Primary outflows are dominated by Rent and Utilities.",
+      "investmentReview": "SIP contributions of 5,000 INR are consistent; consider scaling up as assets grow.",
+      "savingsPerformance": "Exceptional savings performance; high liquidity maintained.",
+      "cashFlowSummary": "Monthly net cash inflow remains positive and robust.",
+      "budgetRecommendations": [
+        "Maintain current lifestyle spending",
+        "Allocate surplus cash into high-yield savings instruments"
+      ],
+      "fraudDetection": [
+        "No duplicate anomalies or unauthorized transactions detected."
+      ],
+      "healthScore": 82,
+      "aiRecommendations": [
+        "Automate the SIP contribution to occur closer to the salary credit date to optimize time-in-market."
+      ]
+    },
+    {
+      "id": "report_1781726454650",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726449246",
+      "generatedAt": "2026-06-17T20:00:54.650Z",
+      "period": "March 2026",
+      "executiveSummary": "The user maintains a very healthy financial profile for March 2026 with a positive cash flow ratio and disciplined expense management.",
+      "incomeAnalysis": "Total inflows of 83,750 INR indicate strong earning potential with a balance between fixed salary and freelance work.",
+      "expenseAnalysis": "Total expenses of 22,318 INR are well-controlled; Rent is the primary outflow followed by utilities and shopping.",
+      "investmentReview": "Current investment of 5,000 INR is consistent, though the surplus suggests capacity for higher allocations.",
+      "savingsPerformance": "Strong savings performance; net cash retention rate is approximately 67% of gross inflows.",
+      "cashFlowSummary": "Income exceeds total outflows significantly, allowing for high liquidity.",
+      "budgetRecommendations": [
+        "Maintain current lifestyle while optimizing retail spending.",
+        "Monitor electricity bills for seasonal fluctuations."
+      ],
+      "fraudDetection": [
+        "No unauthorized or duplicate transactions identified."
+      ],
+      "healthScore": 88,
+      "aiRecommendations": [
+        "Automate a higher SIP amount to capitalize on existing surplus liquidity."
+      ]
+    },
+    {
+      "id": "report_1781726495976",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726490867",
+      "generatedAt": "2026-06-17T20:01:35.976Z",
+      "period": "January 2025",
+      "executiveSummary": "The account shows robust financial health with a high savings rate and diversified income streams.",
+      "incomeAnalysis": "Total income reached 65,000 INR with a stable base salary and supplemental freelance income.",
+      "expenseAnalysis": "Monthly expenses are manageable, led by utility and miscellaneous transfer outflows.",
+      "investmentReview": "No systematic investments found. Recommend establishing an emergency fund or mutual fund SIP.",
+      "savingsPerformance": "Excellent; over 80% of monthly income retained.",
+      "cashFlowSummary": "Strong positive cash flow; account balance grew significantly.",
+      "budgetRecommendations": [
+        "Implement a 10% cap on miscellaneous UPI transfers.",
+        "Set aside 20% of total income for long-term investments."
+      ],
+      "fraudDetection": [
+        "No duplicate transactions or suspicious anomalies detected."
+      ],
+      "healthScore": 88,
+      "aiRecommendations": [
+        "Automate a portion of surplus capital into index-based investment funds."
+      ]
+    },
+    {
+      "id": "report_1781726571937",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726566149",
+      "generatedAt": "2026-06-17T20:02:51.937Z",
+      "period": "March 2026",
+      "executiveSummary": "The account shows a robust financial position for March 2026 with a healthy surplus and diversified income streams.",
+      "incomeAnalysis": "Income remains strong with a combination of salary and freelance work. Total income: 83,750 INR.",
+      "expenseAnalysis": "Monthly expenses are manageable. Rent remains the primary expenditure, representing approximately 54% of total expenses.",
+      "investmentReview": "Investment activity is stable via SIP. Recommended to increase SIP amount to optimize long-term wealth accumulation.",
+      "savingsPerformance": "High savings rate achieved. The ratio of surplus to income indicates excellent financial discipline.",
+      "cashFlowSummary": "Monthly closing balance is significantly positive, indicating no immediate liquidity issues.",
+      "budgetRecommendations": [
+        "Cap shopping expenses at 2000 INR.",
+        "Optimize utility usage to bring costs under 2500 INR."
+      ],
+      "fraudDetection": [
+        "No duplicate anomalies or suspicious transactions detected."
+      ],
+      "healthScore": 88,
+      "aiRecommendations": [
+        "Reinvest liquid capital into higher-yielding assets to maximize growth."
+      ]
+    },
+    {
+      "id": "report_1781726670978",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726666130",
+      "generatedAt": "2026-06-17T20:04:30.978Z",
+      "period": "March 2026",
+      "executiveSummary": "The user maintains a strong financial position for March 2026 with a high savings rate and diversified income streams.",
+      "incomeAnalysis": "Income is well-diversified between primary salary and freelance income, totaling 83,750 INR.",
+      "expenseAnalysis": "Monthly expenses are manageable at 22,318 INR, with rent being the largest primary outgoing expense.",
+      "investmentReview": "Commitment to future growth is evidenced by a stable 5,000 INR monthly SIP contribution.",
+      "savingsPerformance": "Strong savings performance this month, maintaining substantial liquidity for future allocation.",
+      "cashFlowSummary": "Positive cash flow position maintained throughout the period with no volatility issues.",
+      "budgetRecommendations": [
+        "Maintain shopping budget under 2000 INR.",
+        "Continue consistent SIP investments."
+      ],
+      "fraudDetection": [
+        "No duplicate anomalies found.",
+        "All transactions appear legitimate and authorized."
+      ],
+      "healthScore": 88,
+      "aiRecommendations": [
+        "Reinvest liquid capital into low-risk instruments to maximize monthly interest yield."
+      ]
+    },
+    {
+      "id": "report_1781726879664",
+      "userId": "user_enterprise_1",
+      "fileId": "file_1781726874928",
+      "generatedAt": "2026-06-17T20:07:59.664Z",
+      "period": "January 2025",
+      "executiveSummary": "The account shows strong financial performance with high income levels and controlled spending.",
+      "incomeAnalysis": "Combined income from salary and freelance payments demonstrates excellent financial stability.",
+      "expenseAnalysis": "Monthly expenses remain well within manageable limits relative to earnings.",
+      "investmentReview": "Current lack of investment activity is a primary area for growth to combat inflation.",
+      "savingsPerformance": "High savings rate observed; significant capacity to start automated investment plans.",
+      "cashFlowSummary": "Strong net positive cash flow, providing ample runway for personal financial goals.",
+      "budgetRecommendations": [
+        "Define specific budgets for UPI transactions.",
+        "Automate a 20% savings contribution immediately upon salary receipt."
+      ],
+      "fraudDetection": [
+        "No unauthorized or duplicate transactions identified."
+      ],
+      "healthScore": 88,
+      "aiRecommendations": [
+        "Begin a monthly SIP for wealth accumulation.",
+        "Review utility usage to optimize monthly bill payments."
+      ]
+    }
+  ],
+  "budgets": [
+    {
+      "id": "b_1",
+      "userId": "user_enterprise_1",
+      "category": "Rent",
+      "limitAmount": 0,
+      "spentAmount": 0,
+      "period": "2026-06"
+    },
+    {
+      "id": "b_2",
+      "userId": "user_enterprise_1",
+      "category": "Utilities",
+      "limitAmount": 2500,
+      "spentAmount": 0,
+      "period": "2026-06"
+    },
+    {
+      "id": "b_3",
+      "userId": "user_enterprise_1",
+      "category": "Food & Dining",
+      "limitAmount": 0,
+      "spentAmount": 0,
+      "period": "2026-06"
+    },
+    {
+      "id": "b_4",
+      "userId": "user_enterprise_1",
+      "category": "Transportation",
+      "limitAmount": 0,
+      "spentAmount": 0,
+      "period": "2026-06"
+    },
+    {
+      "id": "b_added_1781726454650_0",
+      "userId": "user_enterprise_1",
+      "category": "Shopping",
+      "limitAmount": 2000,
+      "spentAmount": 0,
+      "period": "2026-06"
+    },
+    {
+      "id": "b_added_1781726495976_0",
+      "userId": "user_enterprise_1",
+      "category": "Others",
+      "limitAmount": 2000,
+      "spentAmount": 0,
+      "period": "2026-06"
+    }
+  ],
+  "chatHistory": [
+    {
+      "id": "msg_1",
+      "sender": "assistant",
+      "text": "Welcome Drona! I am your AI CashFlow Pro financial intelligence companion. I can analyze your statement transactions, identify overspending, check investment details, and guide your wealth allocations. Ask me anything about your current statement!",
+      "timestamp": "2026-06-15T08:00:00Z"
+    }
+  ]
+}
